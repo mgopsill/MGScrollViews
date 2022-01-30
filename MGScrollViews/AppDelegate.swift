@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  MGScrollViews
-//
-//  Created by Mike Gopsill on 28/01/2022.
-//
-
 import UIKit
 
 @main
