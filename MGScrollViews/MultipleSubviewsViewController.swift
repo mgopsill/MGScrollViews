@@ -32,6 +32,7 @@ final class MultipleSubviewsViewController: UIViewController {
         subview1.topAnchor.constraint(equalTo: scrollView.topAnchor).isActive = true
         subview1.widthAnchor.constraint(equalTo: scrollView.widthAnchor).isActive = true
         subview1.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor).isActive = true
+        subview1.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor).isActive = true
         subview1.heightAnchor.constraint(equalToConstant: 200).isActive = true
 
         subview2.topAnchor.constraint(equalTo: subview1.bottomAnchor).isActive = true
